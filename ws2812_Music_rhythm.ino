@@ -22,9 +22,9 @@
 #define FIXED_LEDS 4                         // 中间固定显示的灯珠数量
 
 // 定义A0引脚
-#ifndef A0
-#define A0 6
-#endif
+// #ifndef A0
+// #define A0 36
+// #endif
 
 struct CRGB leds[NUM_LEDS];
 int8_t maxBright = 128;
